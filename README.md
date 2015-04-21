@@ -3,13 +3,13 @@ RIPS - A static source code analyser for vulnerabilities in PHP scripts
 
 ## Command-line Interface - CLI
 
-### run index.php and provide any $_POST param via command-line as key=value
+#### run index.php and provide any $_POST param via command-line as key=value
 
 ```
  php index.php [<key>=<value>, ...]
 ```
 
-### usage
+#### usage
 
 see php-rips scan form for details.
 
@@ -32,7 +32,7 @@ see php-rips scan form for details.
 3. add build step: execute shell
 
   ```
-	 # config - remove this if you configer it via jenkins parameterized builds
+	 # config - remove this if you configure it via jenkins parameterized builds
 	 PATH_RIPS=rips-scanner
 	 PATH_REPORT=report
 	 FILE_REPORT=report.html
